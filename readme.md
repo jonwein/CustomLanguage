@@ -21,17 +21,17 @@ Description:
 20. Specifying slicing arguments that are outside the range of the string being sliced is an error. DYNAMIC
 
 Lexical Analyzer:
-● recognizes invalid command line flags, a file that cannot be opened, and case with more than one file name
-● recognizes string with a newline in it as an error
-● recognizes string with a # in it as a string, not a comment
-● recognizes all valid token types
-● recognizes various erroneous tokens
+1. recognizes invalid command line flags, a file that cannot be opened, and case with more than one file name
+2. recognizes string with a newline in it as an error
+3. recognizes string with a # in it as a string, not a comment
+4. recognizes all valid token types
+5. recognizes various erroneous tokens
 
 Parser:
-● tests against badly formed programs and incorrect arguments.
-● tests against well formed programs
+1. tests against badly formed programs and incorrect arguments.
+2. tests against well formed programs
 
 Interpreter:
-● retests badly formed programs and incorrect arguments, and tests the print statement and integer operations.
-● tests variables, set, and string operations (except for slicing).
-● tests slicing and the repeat statement.
+1. retests badly formed programs and incorrect arguments, and tests the print statement and integer operations.
+2. tests variables, set, and string operations (except for slicing).
+3. tests slicing and the repeat statement.
