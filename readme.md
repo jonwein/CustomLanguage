@@ -1,4 +1,4 @@
-Description:
+Description of the Language:
 1. The language contains two types: integer and string.
 2. The language contains 4 operators: +, -, *, and []. All operators are left associative.
 3. A VarStmt is a variable declaration and initialization in one statement. The type of the IDENT is determined by the type of the Expr.
